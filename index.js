@@ -75,7 +75,7 @@ const myFunction1 = async () => {
     //console.log(base64)
 
     input.pdf = base64;
-    input.key = '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';
+    input.key = '';
     input.model = 'text-davinci-002';
     input.prompt = 'extract the receipt number, date and amount from:';
     input.completion = 'the receipt number, date and amount:';
